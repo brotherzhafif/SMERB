@@ -6,7 +6,7 @@
 
 ## ⏳ Features
 ### Free Version
-- Basic Items Management (Search Item)
+- Basic Items Management
 - Local Filebased Database (No Connection)
 - Multiplatform DataSharing (Export Import Database)
 - Automatically Updates Everytime Data Has Been Changed
