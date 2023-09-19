@@ -1,4 +1,4 @@
-# SMERB - Retail Bussines Manager
+# SMERB - Retail Business Manager
 
 ## 📝 Description
 - Multiplatform Retail Business Manager Application for Small Medium and Enterprise Level Business
