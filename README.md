@@ -16,4 +16,3 @@
 - Android 5.0 (API 21) or higher
 - macOS 10.15 or higher
 - iOS 10 or higher
-- Tizen 7.0 or higher
