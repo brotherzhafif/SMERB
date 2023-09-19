@@ -2,13 +2,15 @@
 
 ## 📝 Description
 - A Multiplatform Business Manager Application For Small Medium And Enterprise Level Business
+- Easy To Use For Every People, From Who Just Start A Business Or An Expert
 
 ## ⏳ Features
 - Flexible Item Management
-- Local Database And Multiplatform DataSharing
+- Local Filebased Database (No Connection)
 - Support Convert Every Data Into Excel Files
 - Item Transaction And Detailed Payment Notes
-- Business Sales Over Time With Graphic Display
+- Business Sales Analytic Data With Graphic Display  
+- Multiplatform Datasharing (Export Import Database) 
 - Automatically Updates Everytime Data Has Been Changed
 
 ## 🖥️ Supported Platform
