@@ -2,7 +2,7 @@
 
 ## 📝 Description
 - A Multiplatform Business Manager Application For Small Medium And Enterprise Level Business
-- Easy To Use For Every People, From Who Just Start A Business to An Business Expert
+- Easy To Use For Every People, From Business Beginner to Business Expert
 
 ## ⏳ Features
 - Flexible Item Management
