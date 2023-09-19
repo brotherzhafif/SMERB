@@ -2,14 +2,14 @@
 
 ## 📝 Description
 - Multiplatform Retail Business Manager Application for Small Medium and Enterprise Level Business
-- Easy To Use For Every People, From Business Beginner to Business Expert
+- Easy to Use for Business Beginner or Business Expert
 
 ## ⏳ Features
 ### Free Version
 - Basic Items Management (Search Item)
 - Local Filebased Database (No Connection)
 - Automatically Updates Everytime Data Has Been Changed
-- Multiplatform Datasharing (Export Import And Merge Database)
+- Multiplatform DataSharing (Export Import Database)
   
 ### Premium Version
 - Advanced Items Management (Item Sorting Based on Type, Unit, Etc.)
@@ -17,6 +17,7 @@
 - Business Sales Analytic Data With Graphic Display
 - Support Convert Every Data Into Excel Files
 - Delete Start Menu When App Just Started
+- Advance DataSharing (Merge Database)
 
 ## 🖥️ Supported Platform
 - Windows 10 version 1809 or higher
