@@ -1,17 +1,22 @@
 # SMERB - Retail Bussines Manager
 
 ## 📝 Description
-- A Multiplatform Business Manager Application For Small Medium And Enterprise Level Business
+- Multiplatform Retail Business Manager Application for Small Medium and Enterprise Level Business
 - Easy To Use For Every People, From Business Beginner to Business Expert
 
 ## ⏳ Features
-- Flexible Item Management
+### Free Version
+- Basic Items Management (Search Item)
 - Local Filebased Database (No Connection)
-- Support Convert Every Data Into Excel Files
-- Item Transaction And Detailed Payment Notes
-- Business Sales Analytic Data With Graphic Display  
-- Multiplatform Datasharing (Export Import Database) 
 - Automatically Updates Everytime Data Has Been Changed
+- Multiplatform Datasharing (Export Import And Merge Database)
+  
+### Premium Version
+- Advanced Items Management (Item Sorting Based on Type, Unit, Etc.)
+- Payment Notes With Costumizeable Data (Address, Icon, Etc.)
+- Business Sales Analytic Data With Graphic Display
+- Support Convert Every Data Into Excel Files
+- Delete Start Menu When App Just Started
 
 ## 🖥️ Supported Platform
 - Windows 10 version 1809 or higher
