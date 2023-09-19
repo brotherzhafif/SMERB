@@ -8,8 +8,8 @@
 ### Free Version
 - Basic Items Management (Search Item)
 - Local Filebased Database (No Connection)
-- Automatically Updates Everytime Data Has Been Changed
 - Multiplatform DataSharing (Export Import Database)
+- Automatically Updates Everytime Data Has Been Changed
   
 ### Premium Version
 - Advanced Items Management (Item Sorting Based on Type, Unit, Etc.)
