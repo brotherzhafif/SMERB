@@ -8,7 +8,7 @@
 ### Advanced And Simple Data Presentation
 - Search Item Based on Names or Even Price
 - Automatically Change And Adjust Data Everytimes Something Is Changed
-- Item Sorting In Every Form In The App Like Item Item Types, Sales Dates or Popularity
+- Item Sorting In Every Form Such as Item Types, Sales Dates or Popularity
 ### Build In Business Cashier App
 - Barcode Scanner
 - Easy To Navigate And Use
@@ -18,11 +18,12 @@
 - Multiplatform DataSharing (Export Import And Merge Database)
 - Local Filebased Database With Excel and Sqlite (No Connection)
 - When Restocking Items, There Will be a Warning if The Price is Too Low
-### Business Sales History, Analytics And Sales Graph 
+### Business Transaction History, Analytics And Sales Graph 
 - Show All Transaction In The Business and The Detail
 - Showing The Most Popular and Profitable item or The Otherwise
 - Showing How Much Items Has Been Sale, The Profit, Comparisons and Etc
 - Business Sales Graph with Variety of Graph Model and Can Exported as Picture
+- Date Range, Types And Item Names Detailed Analytics And Graph Data Can Be Looked 
 ### Other Small Features
 - User Can Add Their Own Language (Default Is English And Indonesia)
 - Showing App Versions, Changelog and Checking for Updates
