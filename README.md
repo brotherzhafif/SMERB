@@ -5,14 +5,14 @@
 - Easy to Use for Business Beginner or Business Expert
 
 ## ⏳ Features
-### Advanced And Simple Data Presentation
-- Search Item Based on Names or Even Price
-- Automatically Change And Adjust Data Everytimes Something Is Changed
-- Item Sorting In Every Form Such as Item Types, Sales Dates or Popularity
 ### Build In Business Cashier App
 - Barcode Scanner
 - Easy To Navigate And Use
 - Print Payment Notes Using Bluetooth
+### Advanced And Simple Data Presentation
+- Search Item Based on Names or Even Price
+- Automatically Change And Adjust Data Everytimes Something Is Changed
+- Item Sorting In Every Form Such as Item Types, Sales Dates or Popularity
 ### Business Data Management
 - Auto Backup Database to Avoid Database Errors 
 - Multiplatform DataSharing (Export Import And Merge Database)
