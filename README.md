@@ -5,19 +5,29 @@
 - Easy to Use for Business Beginner or Business Expert
 
 ## ⏳ Features
-### Free Version
-- Basic Items Management
-- Local Filebased Database (No Connection)
-- Multiplatform DataSharing (Export Import Database)
-- Automatically Updates Everytime Data Has Been Changed
-  
-### Premium Version
-- Advanced Items Management (Item Sorting Based on Type, Unit, Etc.)
-- Payment Notes With Costumizeable Data (Address, Icon, Etc.)
-- Business Sales Analytic Data With Graphic Display
-- Support Convert Every Data Into Excel Files
-- Delete Start Menu When App Just Started
-- Advance DataSharing (Merge Database)
+### Advanced And Simple Data Presentation
+- Search Item Based on Names or Even Price
+- Automatically Change And Adjust Data Everytimes Something Is Changed
+- Item Sorting In Every Form In The App Like Item Item Types, Sales Dates or Popularity
+### Build In Business Cashier App
+- Barcode Scanner
+- Easy To Navigate And Use
+- Print Payment Notes Using Bluetooth
+### Business Data Management
+- Auto Backup Database to Avoid Database Errors 
+- Multiplatform DataSharing (Export Import And Merge Database)
+- Local Filebased Database With Excel and Sqlite (No Connection)
+- When Restocking Items, There Will be a Warning if The Price is Too Low
+### Business Sales History, Analytics And Sales Graph 
+- Show All Transaction In The Business and The Detail
+- Showing The Most Popular and Profitable item or The Otherwise
+- Showing How Much Items Has Been Sale, The Profit, Comparisons and Etc
+- Business Sales Graph with Variety of Graph Model and Can Exported as Picture
+### Other Small Features
+- User Can Add Their Own Language (Default Is English And Indonesia)
+- Showing App Versions, Changelog and Checking for Updates
+- Modifiable Theme Color of The Application 
+- The Payment Notes Data Can Be Modified
 
 ## 🖥️ Supported Platform
 - Windows 10 version 1809 or higher
