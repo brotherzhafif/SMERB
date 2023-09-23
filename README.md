@@ -1,8 +1,9 @@
 # SMERB - Retail Business Manager
 
 ## 📝 Description
-- Multiplatform Retail Business Manager Application for Small Medium and Enterprise Level Business
+- Point Of Sales Application For Retail Business
 - Easy to Use for Business Beginner or Business Expert
+- Multiplatfrom and Flexible for Every Business Scale and Types
 
 ## ⏳ Features
 ### Build In Business Cashier App
