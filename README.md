@@ -5,7 +5,7 @@
 - Easy to Use for Business Beginner or Business Expert
 - Multiplatfrom and Flexible for Every Business Scale and Types
 
-## ⏳ Features
+## ⏳ SMERB Architecture And Features 
 ### Build In Business Cashier App
 - Barcode Scanner
 - Easy To Navigate And Use
