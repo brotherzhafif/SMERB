@@ -1,54 +1,105 @@
-<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>SMERB - Retail Business Manager</title>
+		<link rel="shortcut icon" href="asset/img/high-res/favicon.png" type="image/x-icon">
+
 		<link rel="stylesheet" href="asset/bootstrap/font/bootstrap-icons.css">
 		<link rel="stylesheet" href="asset/bootstrap/css/bootstrap.css">
+		
 		<link rel="stylesheet" href="asset/aos/aos.css">
 		<link rel="stylesheet" href="asset/style.css">
 	</head>
 	<body>
-		
+
 		<div class="container-fluid p-0">
 			<div class="col-12">
-				<!-- TESTING -->
-				<ul style="color:white" id="Assets">
-				
-				</ul>
+
+				<!-- Navigation Bar -->
+				<div class="navbar p-0 shadow">
+					<div class="m-1 ps-5 ms-5 d-flex flex-row">
+						<a href="index.html" class="me-3 ">
+							<img style="height: 36px;" src="asset/img/high-res/Icon.png">
+						</a>
+
+						<a href="index.html" class="p-1 me-3 fs-5 text-black-50">Premium</a>
+						<a href="index.html" class="p-1 me-3 fs-5 text-black-50">Tutorial</a>
+						<a href="index.html" class="p-1 me-3 fs-5 text-black-50">Updates</a>
+						<a href="index.html" class="p-1 me-3 fs-5 text-black-50">FAQ</a>
+						<a href="index.html" class="p-1 me-3 fs-5 text-black-50">About</a>
+					</div>
+
+					<div class="pe-5 me-5 d-flex flex-row">
+						<a href="index.html" class="p-2 ps-3 pe-3 h-100 pt-2 fs-5 fw-semibold text-bg-primary">
+							<i class="bi-cloud-download me-1 fs-4"></i>  Download
+						</a>
+					</div>
+				</div>
+
+				<!-- Application Banner -->
+				<div class="progress-bar d-flex flex-row pt-5 p-3 ps-5 pe-5 bg-body-tertiary">
+
+					<!-- Left Side Short Description of the Application -->
+
+					<div class="col-4 ms-5 p-5 d-flex flex-column">
+
+						<!-- Text Header and Description -->
+						<div>
+							<h1 class="fw-normal">Advanced</h1>
+							<h1>Point of Sales</h1>
+							<h6>Multiplatform for Every Business Scale and Type</h6>
+						</div>
+						
+						<!-- Download Button With Dropdown -->
+						<div class="btn-group mt-4">
+							<button type="button" class="btn btn-primary p-1 pt-2 ps-3 pe-3">
+								<h5>Download for Windows</h5>
+								<h6 class="fw-lighter">Latest Version</h6>
+							</button>
+
+							<!-- Dropdown Toggle -->
+							<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="visually-hidden">Toggle Dropdown</span>
+							</button>
+							<ul class="dropdown-menu dropdown-menu-end">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Separated link</a></li>
+							</ul>
+						</div>
+
+						<!-- Button to Upgrade for Premium -->
+						<div class="bg-secondary w-75 fw-lighter align-self-center text-white mt-3 p-2">
+							<p class="m-0">Upgrade to Premium now</p>
+						</div>
+
+						<!-- License and Privacy Statement -->
+						<div class="fw-lighter align-self-center text-dark mt-3 p-2">
+							<p class="m-0">By using SMERB, you agree to its 
+								<br> license and privacy statement.</p>
+						</div>
+
+					</div>
+					
+					<!-- Right Side Banner Application -->
+					
+					<div class="col-8 me-5">
+						<img style="width: 720px;" src="asset/img/high-res/Display.jpg">
+					</div>
+
+				</div>	
+
+
 			</div>
 		</div>
 
 	</body>
 </html>
 
+<script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="asset/bootstrap/js/bootstrap.js"></script>
 <script src="asset/aos/aos.js"></script>
 <script src="asset/script.js"></script>
-
-<script>
-	AOS.init();
-	
-	function GetAllTheRelease(){
-		fetch('https://api.github.com/repos/brotherzhafif/SMERB/releases')
-		.then((res) => {
-		return res.json()
-	}).then((data) => {
-		console.log(data[0].assets)
-		data[0].assets.forEach((elm, idx) => {
-			document.getElementById("Assets").innerHTML += 
-			`
-			<li><a href='${elm.browser_download_url}'>${elm.name}</a></li>
-			`
-		});
-	}).catch(function (err) {
-		// There was an error
-		console.warn('Something went wrong.', err);
-	});
-	}
-
-	window.addEventListener("load", () => {
-		GetAllTheRelease()
-	})
-</script>
