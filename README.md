@@ -32,7 +32,8 @@
 - The Payment Notes Data Can Be Modified
 
 ## 🖥️ Supported Platform
-- Windows 10 version 1809 or higher
-- Android 5.0 (API 21) or higher
-- macOS 10.15 or higher
-- iOS 10 or higher
+- Windows 7 or Higher
+- Android
+- Linux
+- macOS 
+- iOS
