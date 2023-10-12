@@ -14,13 +14,13 @@
 	<body>
 
 		<div class="container-fluid p-0">
-			<div class="col-12">
+			<div class="col-12 bg-body-secondary">
 
 				<!-- Navigation Bar -->
-				<div class="navbar p-0 shadow">
+				<div class="navbar p-0 shadow bg-white">
 					<div class="m-1 ps-5 ms-5 d-flex flex-row">
-						<a href="index.html" class="me-3 ">
-							<img style="height: 36px;" src="asset/img/high-res/Icon.png">
+						<a style="width: 160px; height: 36px;" href="index.html" class="me-3 ">
+							<img class="h-100" src="asset/img/high-res/Icon.png">
 						</a>
 
 						<a href="index.html" class="p-1 me-3 fs-5 text-black-50">Premium</a>
@@ -38,7 +38,7 @@
 				</div>
 
 				<!-- Application Banner -->
-				<div class="progress-bar d-flex flex-row pt-5 p-3 ps-5 pe-5 bg-body-tertiary">
+				<div class="progress-bar d-flex flex-row pt-5 p-3 ps-5 pe-5">
 
 					<!-- Left Side Short Description of the Application -->
 
@@ -51,29 +51,32 @@
 							<h6>Multiplatform for Every Business Scale and Type</h6>
 						</div>
 						
-						<!-- Download Button With Dropdown -->
-						<div class="btn-group mt-4">
-							<button type="button" class="btn btn-primary p-1 pt-2 ps-3 pe-3">
-								<h5>Download for Windows</h5>
-								<h6 class="fw-lighter">Latest Version</h6>
-							</button>
+						<!-- Buttons -->
+						<div style="width: 180px;" class="d-flex flex-column align-self-center">
+							<!-- Download Button With Dropdown -->
+							<div class="btn-group mt-4 align-self-center">
+								<button type="button" class="btn btn-primary p-1 pt-2 ps-3 pe-3">
+									<h5>Download for Windows</h5>
+									<h6 class="fw-lighter">Latest Version</h6>
+								</button>
 
-							<!-- Dropdown Toggle -->
-							<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-								<span class="visually-hidden">Toggle Dropdown</span>
-							</button>
-							<ul class="dropdown-menu dropdown-menu-end">
-								<li><a class="dropdown-item" href="#">Action</a></li>
-								<li><a class="dropdown-item" href="#">Another action</a></li>
-								<li><a class="dropdown-item" href="#">Something else here</a></li>
-								<li><hr class="dropdown-divider"></li>
-								<li><a class="dropdown-item" href="#">Separated link</a></li>
-							</ul>
-						</div>
+								<!-- Dropdown Toggle -->
+								<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+									<span class="visually-hidden">Toggle Dropdown</span>
+								</button>
+								<ul class="dropdown-menu dropdown-menu-end">
+									<li><a class="dropdown-item" href="#">Action</a></li>
+									<li><a class="dropdown-item" href="#">Another action</a></li>
+									<li><a class="dropdown-item" href="#">Something else here</a></li>
+									<li><hr class="dropdown-divider"></li>
+									<li><a class="dropdown-item" href="#">Separated link</a></li>
+								</ul>
+							</div>
 
-						<!-- Button to Upgrade for Premium -->
-						<div class="bg-secondary w-75 fw-lighter align-self-center text-white mt-3 p-2">
-							<p class="m-0">Upgrade to Premium now</p>
+							<!-- Button to Upgrade for Premium -->
+							<button type="button" class="btn btn-secondary fw-lighter align-self-center text-white mt-3 p-2">
+								<p class="m-0">Upgrade to Premium now</p>
+							</button>
 						</div>
 
 						<!-- License and Privacy Statement -->
@@ -86,13 +89,104 @@
 					
 					<!-- Right Side Banner Application -->
 					
-					<div class="col-8 me-5">
-						<img style="width: 720px;" src="asset/img/high-res/Display.jpg">
+					<div class="col-8 me-5 d-flex flex-row-reverse">
+						<div style="width: 720px; height: 520px;" class="align-self-center">
+							<img class="h-100" src="asset/img/high-res/Display.jpg">
+						</div>
 					</div>
 
 				</div>	
 
+				<!-- Application Features -->
+				<div class="progress-bar mt-5">
 
+					<!-- Built in Cashier App -->
+					<div class="bg-white p-5 d-flex flex-row shadow z-1">
+						<div class="col-1"></div>
+						<div class="col-4 d-flex flex-column align-items-center">
+							<div style="height: 160px; width: 360px;" class="">
+								<img src="asset/img/high-res/features-cashier.png" class="h-100  ">
+							</div>
+						</div>
+						<div class="col-7 text-start">
+							<h2 class="fw-light">Built In Cashier Application</h2>
+							<hr class="w-75">
+							<h4 class="fw-light">
+								Effortless Sales, Maximized Efficiency
+							</h4>
+							<h5 class="fw-lighter">
+								SMERB Built-In Cashier Application simplifies sales<br>
+								from lightning-fast transactions to inventory management<br>
+								Elevate your business with streamlined checkout experiences</h5>
+						</div>
+					</div>
+
+					<!-- Advanced but simple data presentation -->
+					<div class="bg-white p-5 d-flex flex-row bg-body-tertiary">
+						<div class="col-1 order-2"></div>
+						<div class="col-4 d-flex flex-column align-items-center">
+							<div style="height: 160px; width: 360px;" class="">
+								<img src="asset/img/high-res/features-presentation.png" class="h-100  ">
+							</div>
+						</div>
+						<div class="col-7 text-start order-first d-flex flex-column align-items-end">
+							
+							<h3 class="fw-light">Business Data Presentation</h3>
+							<hr class="w-75">
+							<h4 class="fw-light">
+								Clarity at Your Fingertips
+							</h4>
+							<h5 class="fw-lighter">
+								Simplifies business data presentation and utilization<br>
+								Effortlessly organize, visualize, and apply your data<br>
+								Make more informed and efficient decisions</h5>
+						</div>
+					</div>
+
+					<!-- Business Data Management -->
+					<div class="bg-white p-5 d-flex flex-row shadow z-1">
+						<div class="col-1"></div>
+						<div class="col-4 d-flex flex-column align-items-center">
+							<div style="height: 160px; width: 360px;" class="">
+								<img src="asset/img/high-res/features-manager.png" class="h-100  ">
+							</div>
+						</div>
+						<div class="col-7 text-start">
+							<h2 class="fw-light">Business Data Management</h2>
+							<hr class="w-75">
+							<h4 class="fw-light">
+								Efficiency. Accuracy. Control
+							</h4>
+							<h5 class="fw-lighter">
+								Master your business data effortlessly<br>
+								With SMERB Data Management solution<br>
+								Gain control, insights, and a competitive edge</h5>
+						</div>
+					</div>
+
+					<!-- Business Sales Analytics And Sales Graph -->
+					<div class="bg-white p-5 d-flex flex-row bg-body-tertiary">
+						<div class="col-1 order-2"></div>
+						<div class="col-4 d-flex flex-column align-items-center">
+							<div style="height: 160px; width: 360px;" class="">
+								<img src="asset/img/high-res/features-graph.png" class="h-100  ">
+							</div>
+						</div>
+						<div class="col-7 text-start order-first d-flex flex-column align-items-end">
+							
+							<h3 class="fw-light">Business Sales Insights</h3>
+							<hr class="w-75">
+							<h4 class="fw-light">
+								Powerful Insights, Elegant Visualization
+							</h4>
+							<h5 class="fw-lighter">
+								Gain actionable insights into your business sales<br>
+								Uncover opportunities, analyze trends and make<br>
+								 informed decisions to drive your business forward.</h5>
+						</div>
+					</div>
+
+				</div>
 			</div>
 		</div>
 
